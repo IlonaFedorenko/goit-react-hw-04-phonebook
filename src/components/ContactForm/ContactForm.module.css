@@ -1,0 +1,39 @@
+.title {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #4a4a4a;
+    
+}
+
+.input {
+    display: block;
+    width: 200px;
+    height: 22px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: #f7cfd5;
+    
+}
+
+input:focus,
+input:hover {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 25px;
+    border-color: inherit;
+    background-color: #f7cfd5;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #b6dbe4;
+    color: #fff;
+}
