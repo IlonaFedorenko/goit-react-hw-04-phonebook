@@ -28,12 +28,6 @@ export function ContactList({ contacts, deleteContact }) {
 }
 
 ContactList.propTypes = {
-  contacts: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      number: PropTypes.string.isRequired,
-    })
-  ),
+  contacts: PropTypes.array.isRequired,
   deleteContact: PropTypes.func.isRequired,
 };
